@@ -1,14 +1,16 @@
-1. créer une fonction javascript calc(nb1, sign, nb2)
-La fonction prendra 3 arguments (un nombre, une chaine de caractère, un nombre)
-Chaine de caractère possible : "+", "-", "/" ou "*"
+************** Exercice optionel ****************
+
+1. créer une fonction javascript calc5(val)
+La fonction est exactement la même que la précédente mais cette fois ci il faut gérer les parenthèses
+
 La fonction doit renvoyé le resultat attendu tels que :
-calc(1, "+", 2) => 3
+calc("1   +(2 -6)   * 3") => -11
 
 2. penser à gérer toutes les erreurs possible
 Afficher l'erreur dans le terminal de manière logique
 
 3. créer un fichier main.js qui importe la fonction et qui affiche le resultat
-tel que "node main.js 3 "+" 2" affiche le resultat "1"
+tel que "node main.js "1   +(2 -6)   * 3" affiche le resultat "-11"
 
 4. créer un fichier tester.js qui permet de verifier si la fonction fonctionne 
 Le fichier doit verifier un par un tout les résultats de la fonction

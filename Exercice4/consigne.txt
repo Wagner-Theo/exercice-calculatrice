@@ -1,0 +1,15 @@
+1. créer une fonction javascript calc4(val)
+La règles de la fonction sont exactement la même que la précédente mais cette fois ci il faut gérer les priorités comme en mathématique
+La multiplication et la division sont prioritaire sur l'addition et la soustraction
+
+La fonction doit renvoyé le resultat attendu tels que :
+calc("1 + 2 - 6 * 3") => -15
+
+2. penser à gérer toutes les erreurs possible
+Afficher l'erreur dans le terminal de manière logique
+
+3. créer un fichier main.js qui importe la fonction et qui affiche le resultat
+tel que "node main.js "1 + 2 - 6 * 3" affiche le resultat "-15"
+
+4. créer un fichier tester.js qui permet de verifier si la fonction fonctionne 
+Le fichier doit verifier un par un tout les résultats de la fonction

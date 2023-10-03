@@ -1,0 +1,20 @@
+1. créer une fonction javascript calc3(val)
+La fonction prendra 1 arguments (val qui sera une chaine de caractère)
+exemple : calc("1 + 42 - 71 + 7 * 4")
+
+ps: Il y a toujours un espace entre les nombres le signe
+    Chaine de caractère possible : "+", "-", "/" ou "*"
+ps2: ne pas se prendre la tête avec les priorités de calcul pour l'instant, faire les calcules de droite à gauche bêtement
+ps3: a partir de l'éxercice précédent ca peut se faire en 2 secondes (chercher sur google comment transformer une chaine de caractère en tableau en javascript)
+
+La fonction doit renvoyé le resultat attendu tels que :
+calc("1 + 2 - 6 * 3") => -9
+
+2. penser à gérer toutes les erreurs possible
+Afficher l'erreur dans le terminal de manière logique
+
+3. créer un fichier main.js qui importe la fonction et qui affiche le resultat
+tel que "node main.js "1 + 2 - 6 * 3" affiche le resultat "-9"
+
+4. créer un fichier tester.js qui permet de verifier si la fonction fonctionne 
+Le fichier doit verifier un par un tout les résultats de la fonction
