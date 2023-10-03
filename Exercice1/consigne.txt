@@ -1,0 +1,12 @@
+Créer une fonction javascript qui permet de faire une calculette
+la fonction prend en compte le "+" le "-" le "*" et le "/"
+essaye de gerer aussi les erreurs potentielles
+
+exemple :
+calc(1, "+", 4) doit renvoyé 5
+
+Faire en sorte de créer un programe qui m'affiche dans la console le résultat
+
+exemple:
+==> node ex1 3 "-" 2
+doit afficher 1 dans le terminal
